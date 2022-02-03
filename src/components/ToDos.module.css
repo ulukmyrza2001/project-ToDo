@@ -1,0 +1,63 @@
+.li {
+	width: 900px;
+	display: grid;
+	grid-template-columns: 0.5fr 3fr 0.1fr 0.5fr;
+	grid-column-gap: 5px;
+	align-items: center;
+	background-color: rgba(36, 29, 27, 0.514);
+	color: rgb(173, 190, 202);
+	font-size: 18px;
+	padding: 8px;
+	border-radius: 5px;
+	margin: 0 auto;
+	animation: YES ease-in-out 1s;
+    margin-top: 20px;
+    box-shadow: 10px 10px 15px rgba(36, 29, 27, 0.514);
+}
+@keyframes YES {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.check {
+	display: flex;
+	align-self: center;
+}
+.done {
+	text-decoration: line-through;
+}
+.task,
+.done {
+	overflow: hidden;
+    text-align: left;
+}
+.date{
+    width: 100px;
+    padding: 3px;
+    background-color: rgba(69, 66, 92, 0.534);
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px rgba(36, 29, 27, 0.514);
+    border-radius: 10px 2px;
+}
+
+.h1 {
+	color: rgb(95, 121, 160);
+	margin-top: 20px;
+}
+.btnCancel{
+	background-color: rgb(155, 85, 73);
+	opacity: 0.8;
+}
+.btnCancel:hover{
+    background-color: rgb(155, 85, 73);
+	opacity: 1;
+}
+.li input{
+	width: 20px;
+	height: 20px;
+}
+
+

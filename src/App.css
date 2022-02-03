@@ -3,13 +3,14 @@
 }
 
 body{
-  background-image: url(./assets/World\ Map\ \(1\).svg);
+  background-image: url(./assets/Moon.svg);
 }
 
 h1 {
-	color: rgba(59, 131, 182, 0.541);
+	color: rgba(97, 159, 202, 0.541);
 	margin-bottom: 20px;
 	animation: zogo ease-in 1s;
+	font-size: 50px;
 }
 @keyframes zogo {
 	0% {
